@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background-color: #a6a6a6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.dourado {
+    color: goldenrod;
+}
+
+.header {
+    background-color:rgb(119, 113, 113);
+    padding: 15px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #004AAD;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+.menu, 
+.logo {
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a, 
+.menu a:visited {
+    color: black;
+    text-decoration: none;
+    padding: 10px 12px;
+
+}
+
+.menu a:hover {
+    background-color: white;
+    color: #004AAD;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+    
+}
+
+.footer { 
+    clear: both;
+    background-color: #004AAD;
+    padding: 10px;
+}
+
+.outracoisa {
+    position: absolute;
+    align-self: baseline; 
+    height: 100%;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+}
+.posts {
+    width: 660px;
+    float: left;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.h2 { 
+    color: #004AAD;
+}
+
+.data-post {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.barra-lateral {
+    width: 240px;
+    background-color: goldenrod;
+    float: right;
+} 
+
+/* css pagina noticias*/
+
+.noticias {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.noticias, .header {
+    background-color: rgb(119, 113, 113);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.noticias .logo {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.noticiasb .footer {
+    padding: 10px;
+    clear: both;
+    width: 100%;
+}
+
+.noticias, p {
+    color: black; 
+}
+
+.noticias .container {
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.noticias h2 {
+    font-size: 20px;
+}
+
+/* css pagina atualizações*/
+
+.atualização {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.atualização .header {
+    background-color: rgb(119 113 113);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.atualização footer {
+    padding: 10px;
+    clear: both;
+}
+
+.atualização .texto {
+    text-align: center;
+    color: black;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.atualização .container {
+    text-align: center;
+    padding: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 auto;
+    width: 95%;
+}
+
+/*css de pagina comunição*/
+
+.comunidade {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.comunidade .header {
+    background-color: rgb(119, 113, 113);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.comunidade footer {
+    padding: 10px;
+    clear: both;
+}
+
+.comunidade .logo {
+    text-align: center;
+    color: black;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.comunidade .container {
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+}
+
+/*css da página contato*/
+
+.contato {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.contato .header {
+    background-color: rgb(119, 113, 113);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contato .logo {
+    text-align: center;
+    color: black;
+    margin-right: 0;
+    margin-left: 0;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.contato .container {
+    text-align: center;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.contato footer {
+    padding: 10px;
+    clear: both;
+    flex-shrink:0;
+    flex-grow: 1;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+#qualquercoisafodase {
+    position: absolute;
+    align-self: baseline;
+}
+
