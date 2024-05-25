@@ -60,14 +60,15 @@ a {
     overflow: hidden;
 }
 
-.footer { 
+footer { 
     clear: both;
     background-color: #2a77dd;
     padding: 10px;
+    
 }
 
 
-.footer p {
+footer p {
     color: white;
     text-align: center;
 }
@@ -120,7 +121,7 @@ a {
     font-size: 15px;
 }
 
-.noticias .footer {
+.noticias footer {
     padding: 10px;
     clear: both;
     width: 100%;
